@@ -9,7 +9,7 @@ export default defineConfig({
       '/api': {
         target: 'https://pw-api1-ab3091004643.herokuapp.com',
         changeOrigin: true,
-        rewrite: (path) => path.replace(/^\/api/, '/api')
+        rewrite: (path) => path.replace(/^\/api/, '')
       }
     }
   },
